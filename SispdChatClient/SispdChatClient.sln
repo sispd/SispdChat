@@ -1,15 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SispdChatClient.Core", "src\SispdChatClient.Core\SispdChatClient.Core.csproj", "{3C22EAE8-6D4A-4044-A70B-206D9CEC0650}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SispdChatClient.Core", "src\SispdChatClient.Core\SispdChatClient.Core.csproj", "{3C22EAE8-6D4A-4044-A70B-206D9CEC0650}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SispdChatClient.UI", "src\SispdChatClient.UI\SispdChatClient.UI.csproj", "{D4AFF7DC-E8ED-424C-8654-2B5B43CBFA0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SispdChatClient.UI", "src\SispdChatClient.UI\SispdChatClient.UI.csproj", "{D4AFF7DC-E8ED-424C-8654-2B5B43CBFA0F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SispdChatClient.Droid", "src\SispdChatClient.Droid\SispdChatClient.Droid.csproj", "{AAA45987-129D-4557-A768-CCFEF926676E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SispdChatClient.iOS", "src\SispdChatClient.iOS\SispdChatClient.iOS.csproj", "{EF205E50-A2A8-4D96-B321-7E47985C9A82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SispdChatClient.Service", "SispdChatClient.Service\SispdChatClient.Service.csproj", "{119F3F54-E65F-40BD-8729-C57004F93507}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -132,6 +134,30 @@ Global
 		{EF205E50-A2A8-4D96-B321-7E47985C9A82}.Release|iPhoneSimulator.Deploy.0 = Release|iPhoneSimulator
 		{EF205E50-A2A8-4D96-B321-7E47985C9A82}.Release|x64.ActiveCfg = Release|iPhone
 		{EF205E50-A2A8-4D96-B321-7E47985C9A82}.Release|x86.ActiveCfg = Release|iPhone
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Debug|ARM.Build.0 = Debug|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Debug|x64.Build.0 = Debug|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Debug|x86.Build.0 = Debug|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Release|ARM.ActiveCfg = Release|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Release|ARM.Build.0 = Release|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Release|iPhone.Build.0 = Release|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Release|x64.ActiveCfg = Release|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Release|x64.Build.0 = Release|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Release|x86.ActiveCfg = Release|Any CPU
+		{119F3F54-E65F-40BD-8729-C57004F93507}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

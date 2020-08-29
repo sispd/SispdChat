@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Specialized;
-using System.ComponentModel;
-using System.Windows.Input;
 using Foundation;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.Commands;
@@ -10,6 +6,10 @@ using MvvmCross.IoC;
 using MvvmCross.Navigation;
 using MvvmCross.Platforms.Ios.Views;
 using MvvmCross.ViewModels;
+using System;
+using System.Collections.Specialized;
+using System.ComponentModel;
+using System.Windows.Input;
 using UIKit;
 
 namespace SispdChatClient.iOS.Linker

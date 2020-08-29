@@ -1,7 +1,7 @@
-using System.Threading.Tasks;
 using Android.App;
 using Android.OS;
 using MvvmCross.Forms.Platforms.Android.Views;
+using System.Threading.Tasks;
 
 namespace SispdChatClient.Droid.Views
 {

@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MvvmCross.ViewModels;
 using System.Threading.Tasks;
-using MvvmCross.ViewModels;
 
 namespace SispdChatClient.Core.ViewModels
 {
