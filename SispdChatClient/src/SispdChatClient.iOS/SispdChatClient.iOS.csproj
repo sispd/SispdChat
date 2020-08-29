@@ -116,6 +116,10 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\SispdChatClient.Service\SispdChatClient.Service.csproj">
+      <Project>{119f3f54-e65f-40bd-8729-c57004f93507}</Project>
+      <Name>SispdChatClient.Service</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SispdChatClient.Core\SispdChatClient.Core.csproj">
       <Project>{3C22EAE8-6D4A-4044-A70B-206D9CEC0650}</Project>
       <Name>SispdChatClient.Core</Name>

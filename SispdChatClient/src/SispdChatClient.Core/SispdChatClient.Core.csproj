@@ -8,4 +8,8 @@
     <PackageReference Include="MvvmCross" Version="7.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\SispdChatClient.Service\SispdChatClient.Service.csproj" />
+  </ItemGroup>
+
 </Project>
