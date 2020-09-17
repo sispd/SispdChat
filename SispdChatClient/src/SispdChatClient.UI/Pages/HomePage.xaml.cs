@@ -14,16 +14,5 @@ namespace SispdChatClient.UI.Pages
         {
             InitializeComponent();
         }
-
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-
-            if (Application.Current.MainPage is NavigationPage navigationPage)
-            {
-                navigationPage.BarTextColor = Color.White;
-                navigationPage.BarBackgroundColor = (Color)Application.Current.Resources["PrimaryColor"];
-            }
-        }
     }
 }

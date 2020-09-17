@@ -7,7 +7,7 @@
   <ItemGroup>
     <PackageReference Include="MvvmCross" Version="7.0.0" />
     <PackageReference Include="MvvmCross.Forms" Version="7.0.0" />
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1364" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1451" />
   </ItemGroup>
   
   <ItemGroup>
@@ -24,6 +24,12 @@
     <Compile Update="Resources\Colors.xaml.cs">
       <DependentUpon>%(Filename)</DependentUpon>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Pages\LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>
